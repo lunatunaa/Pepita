@@ -1,0 +1,115 @@
+h1 {
+    font-family: 'Yellowtail', serif;
+    padding: 0;
+    font-size: 4vw;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(255, 113, 113);
+    margin: 0%;
+}
+
+nav {
+    /* list-style-type: block; */
+    overflow: hidden;
+    background-color: #333;
+    /* display: block; */
+}
+
+.logo {
+    vertical-align: middle;
+    background-color: white;
+    width: 7.5vw;
+}
+
+/* --- Links --- */
+
+a {
+    color: white;
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 14px 16px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #0088ce;
+}
+
+/* --- Search Bar --- */
+
+.search_bar {
+    display: inline;
+    padding: 14px 16px;
+    overflow: hidden;
+}
+
+input {
+    font-size: 1.7vw;
+    font-family: serif;
+    border-radius: 0pt;
+    border: none;
+}
+
+button {
+    height: 2.1vw;
+    border: none;
+    border-radius: 0pt;
+    background-color: crimson;
+}
+
+.search_button {
+    width: 2vw;
+    filter: invert(1);
+}
+
+ /* --- Shopping Cart */
+
+.float {
+    font-size: 1.2vw;
+    text-align: right;
+    display: inline-block; 
+} 
+
+.right_side {
+    padding: 0;
+    color: white;
+    text-align: rgiht;
+}
+
+.cart {
+    width: 2.5vw;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.backslash {
+    color: white;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+p { 
+    margin: 30px;
+}
+
+/* @media only screen and (max-width: 767px) {
+    nav {
+        background-color: blue;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1367px) {
+    nav {
+        background-color: orange;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    nav {
+        background-color: red;
+    }
+} */
